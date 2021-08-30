@@ -19,7 +19,7 @@ export const App = () => {
   return(
     <div className = 'App'>
       <h1>REACT QUIZ</h1>
-      <button className = "start" onclick = {startTrivia}>
+      <button className = "start" onClick = {startTrivia}>
         start
       </button>
       <p className = "score">Score:</p>
